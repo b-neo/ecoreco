@@ -51,6 +51,9 @@ body,
 	justify-content: space-between;
 	box-sizing: border-box;
 }
+ul {
+	list-style: none;
+}
 a {
 	color: white;
 	text-decoration: none;
@@ -76,7 +79,7 @@ a:active {
 .loader {
 	background-color: rgb(25, 148, 25);
 	width: 100vw;
-	height: 100%;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -214,7 +217,7 @@ a:active {
 	width: 25%;
 }
 .tr_name span {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	width: 100%;
 }
@@ -237,6 +240,12 @@ a:active {
 }
 
 .productScreen {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.productScreen > div {
 	height: 100%;
 	background-color: rgba(49, 161, 105, 0.26);
 }
@@ -245,21 +254,18 @@ a:active {
 }
 .pr_container {
 	border-radius: 5%;
-	margin-left: 100px;
-	margin-right: 100px;
 	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 20px;
 	animation: fadein 1s;
 	-moz-animation: fadein 1s; /* Firefox */
 	-webkit-animation: fadein 1s; /* Safari and Chrome */
 	-o-animation: fadein 1s; /* Opera */
 }
 .pr_img {
-	width: 120px;
-	height: 120px;
+	width: 70px;
+	height: 70px;
 	object-fit: cover;
 }
 .pr_content {
@@ -276,4 +282,31 @@ a:active {
 	font-size: 20px;
 	font-weight: bold;
 	color: green;
+}
+
+.mediaScreen {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.mediaScreen > div {
+	height: 100%;
+	background-color: rgba(49, 161, 105, 0.26);
+}
+.youtubePlayer {
+	width: 100vw;
+}
+
+.mediaList {
+	background-color: white;
+	border-radius: 10%;
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.mediaItem {
+	font-size: 18px;
+	padding: 12px;
 }

@@ -3,7 +3,7 @@ import logo from "./image/logo.png";
 import HomeScreen from "./HomeScreen";
 class Home extends React.Component {
 	state = {
-		loading: false,
+		loading: true,
 	};
 	loadHome = () => {
 		setTimeout(() => {
