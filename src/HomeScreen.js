@@ -20,7 +20,7 @@ class HomeScreen extends React.Component {
 						<img className="bacode__img" src={bacode} alt="bacode"></img>
 					</div>
 				</div>
-				<Footer />
+				<Footer title="홈" />
 			</section>
 		);
 	}

@@ -14,6 +14,7 @@ class Transaction extends React.Component {
 		title: "나의 탄소 포인트",
 	};
 	render() {
+		const { location } = this.props;
 		return (
 			<section className="transactionScreen">
 				<div>
@@ -49,7 +50,7 @@ class Transaction extends React.Component {
 						/>
 					</div>
 				</div>
-				<Footer />
+				<Footer title="적립 내역" />
 			</section>
 		);
 	}

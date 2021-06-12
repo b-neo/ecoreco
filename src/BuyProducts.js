@@ -44,7 +44,7 @@ class BuyProducts extends React.Component {
 						/>
 					</div>
 				</div>
-				<Footer />
+				<Footer title="상품 구매" />
 			</section>
 		);
 	}

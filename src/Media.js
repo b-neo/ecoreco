@@ -55,7 +55,7 @@ class Media extends React.Component {
 						</Link>
 					</ul>
 				</div>
-				<Footer />
+				<Footer title="양천 TV" />
 			</section>
 		);
 	}
