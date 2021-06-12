@@ -33,17 +33,23 @@
 		opacity: 1;
 	}
 }
-
+section,
+div,
+img,
+span {
+	box-sizing: border-box;
+}
 html,
 body,
 #root {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	box-sizing: border-box;
 }
 a {
 	color: white;
@@ -70,7 +76,7 @@ a:active {
 .loader {
 	background-color: rgb(25, 148, 25);
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -102,7 +108,7 @@ a:active {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 10vh;
+	height: 15%;
 
 	background-color: rgb(25, 148, 25);
 }
@@ -114,27 +120,36 @@ a:active {
 .footer {
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
 .menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
 	width: 100%;
-	padding: 15px;
+	height: 100%;
+	padding: 14px;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.5);
+	flex-grow: 1;
 }
 
 .homeScreen {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	height: 100vh;
 }
 .divider {
 	width: 100%;
 	border-bottom: 1px solid rgba(128, 128, 128, 0.37);
 }
 .home__brand {
+	width: 100%;
 }
 .home__userName {
-	font-size: 40px;
+	font-size: 150%;
 	font-weight: bold;
 	align-self: flex-start;
 	padding: 20px;
@@ -144,7 +159,12 @@ a:active {
 	padding-top: 30px;
 	width: 100%;
 }
-
+.transactionScreen {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 100%;
+}
 .transactionScreen__myPoints {
 	background-color: rgb(25, 148, 25);
 	text-align: center;
@@ -157,7 +177,8 @@ a:active {
 	padding: 10px;
 	border: 5px dashed rgb(108, 228, 108);
 }
-
+.transaction__table {
+}
 .transaction__table .transactionScren__tableHeader {
 	display: flex;
 	justify-content: space-evenly;
@@ -176,7 +197,8 @@ a:active {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px;
+	width: 100%;
+	padding: 15px;
 	animation: fadein 1s;
 	-moz-animation: fadein 1s; /* Firefox */
 	-webkit-animation: fadein 1s; /* Safari and Chrome */
@@ -184,29 +206,33 @@ a:active {
 }
 .tr_item {
 	text-align: center;
-	font-size: 22px;
 }
 .tr_name {
 	display: flex;
 	flex-direction: column;
-	padding-left: 50px;
+	align-items: center;
+	width: 25vw;
 }
 .tr_name span {
-	width: 90px;
+	font-size: 90%;
+	width: 20vw;
 }
 .tr_logo {
-	width: 100px;
-	height: 100px;
+	width: 50%;
+	height: 50%;
 	object-fit: cover;
 	margin-bottom: 10px;
 }
 .tr_point {
-	font-size: 30px;
+	font-size: 140%;
 	font-weight: bold;
 	color: rgb(25, 148, 25);
+	width: 50vw;
 }
 .tr_time {
 	padding-right: 35px;
+	font-size: 90%;
+	width: 20vw;
 }
 
 .productScreen {

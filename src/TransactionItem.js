@@ -14,7 +14,7 @@ class TransactionItem extends React.Component {
 						<img className="tr_logo" src={image} alt="logo"></img>
 						<span>{name}</span>
 					</div>
-					<div className="tr_item tr_point">+ {point} P</div>
+					<div className="tr_item tr_point">+{point}P</div>
 					<div className="tr_item tr_time">{time}</div>
 				</div>
 				<div className="divider"></div>
