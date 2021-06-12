@@ -211,14 +211,15 @@ a:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 25vw;
+	width: 25%;
 }
 .tr_name span {
-	font-size: 90%;
-	width: 20vw;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
 }
 .tr_logo {
-	width: 50%;
+	width: 60px;
 	height: 50%;
 	object-fit: cover;
 	margin-bottom: 10px;
