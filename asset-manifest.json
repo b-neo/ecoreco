@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ecoreco/static/css/main.44b748fe.chunk.css",
-    "main.js": "/ecoreco/static/js/main.13a3584f.chunk.js",
-    "main.js.map": "/ecoreco/static/js/main.13a3584f.chunk.js.map",
+    "main.css": "/ecoreco/static/css/main.f54e4b60.chunk.css",
+    "main.js": "/ecoreco/static/js/main.dcb2061b.chunk.js",
+    "main.js.map": "/ecoreco/static/js/main.dcb2061b.chunk.js.map",
     "runtime-main.js": "/ecoreco/static/js/runtime-main.e5306412.js",
     "runtime-main.js.map": "/ecoreco/static/js/runtime-main.e5306412.js.map",
-    "static/js/2.402d3a2b.chunk.js": "/ecoreco/static/js/2.402d3a2b.chunk.js",
-    "static/js/2.402d3a2b.chunk.js.map": "/ecoreco/static/js/2.402d3a2b.chunk.js.map",
+    "static/js/2.e375ba20.chunk.js": "/ecoreco/static/js/2.e375ba20.chunk.js",
+    "static/js/2.e375ba20.chunk.js.map": "/ecoreco/static/js/2.e375ba20.chunk.js.map",
     "index.html": "/ecoreco/index.html",
-    "static/css/main.44b748fe.chunk.css.map": "/ecoreco/static/css/main.44b748fe.chunk.css.map",
-    "static/js/2.402d3a2b.chunk.js.LICENSE.txt": "/ecoreco/static/js/2.402d3a2b.chunk.js.LICENSE.txt",
+    "static/css/main.f54e4b60.chunk.css.map": "/ecoreco/static/css/main.f54e4b60.chunk.css.map",
+    "static/js/2.e375ba20.chunk.js.LICENSE.txt": "/ecoreco/static/js/2.e375ba20.chunk.js.LICENSE.txt",
     "static/media/bacode.fefb6d92.png": "/ecoreco/static/media/bacode.fefb6d92.png",
     "static/media/bback.d65dbf72.jpg": "/ecoreco/static/media/bback.d65dbf72.jpg",
     "static/media/brand.4b0e888a.jpg": "/ecoreco/static/media/brand.4b0e888a.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e5306412.js",
-    "static/js/2.402d3a2b.chunk.js",
-    "static/css/main.44b748fe.chunk.css",
-    "static/js/main.13a3584f.chunk.js"
+    "static/js/2.e375ba20.chunk.js",
+    "static/css/main.f54e4b60.chunk.css",
+    "static/js/main.dcb2061b.chunk.js"
   ]
 }
