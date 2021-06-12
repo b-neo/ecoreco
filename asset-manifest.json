@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ecoreco/static/css/main.2226929b.chunk.css",
+    "main.js": "/ecoreco/static/js/main.ceedabd4.chunk.js",
+    "main.js.map": "/ecoreco/static/js/main.ceedabd4.chunk.js.map",
+    "runtime-main.js": "/ecoreco/static/js/runtime-main.e5306412.js",
+    "runtime-main.js.map": "/ecoreco/static/js/runtime-main.e5306412.js.map",
+    "static/js/2.07e3fadc.chunk.js": "/ecoreco/static/js/2.07e3fadc.chunk.js",
+    "static/js/2.07e3fadc.chunk.js.map": "/ecoreco/static/js/2.07e3fadc.chunk.js.map",
+    "index.html": "/ecoreco/index.html",
+    "static/css/main.2226929b.chunk.css.map": "/ecoreco/static/css/main.2226929b.chunk.css.map",
+    "static/js/2.07e3fadc.chunk.js.LICENSE.txt": "/ecoreco/static/js/2.07e3fadc.chunk.js.LICENSE.txt",
+    "static/media/bacode.fefb6d92.png": "/ecoreco/static/media/bacode.fefb6d92.png",
+    "static/media/bback.d65dbf72.jpg": "/ecoreco/static/media/bback.d65dbf72.jpg",
+    "static/media/brand.4b0e888a.jpg": "/ecoreco/static/media/brand.4b0e888a.jpg",
+    "static/media/logo.209e364f.png": "/ecoreco/static/media/logo.209e364f.png",
+    "static/media/starbucks.b0c0b64c.png": "/ecoreco/static/media/starbucks.b0c0b64c.png",
+    "static/media/tamntoms.7ac6ad14.jpg": "/ecoreco/static/media/tamntoms.7ac6ad14.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5306412.js",
+    "static/js/2.07e3fadc.chunk.js",
+    "static/css/main.2226929b.chunk.css",
+    "static/js/main.ceedabd4.chunk.js"
+  ]
+}
